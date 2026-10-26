@@ -3,29 +3,29 @@
 // =====================================================
 const GRUPOS = {
   1: [
-    { nombre: "Yellow",     color: "#ffe14d", texto: "#001a4c", paso: 2 },
-    { nombre: "Black",      color: "#15151d", texto: "#ffffff", paso: 2 },
-    { nombre: "Light Blue", color: "#8fd0ff", texto: "#001a4c", paso: 2 },
-    { nombre: "White",      color: "#ffffff", texto: "#001a4c", paso: 2 },
-    { nombre: "Purple",     color: "#9d5cf5", texto: "#001a4c", paso: 2 },
+    { nombre: "Yellow",     color: "#ffe14d", texto: "#001a4c", paso: 1 },
+    { nombre: "Black",      color: "#15151d", texto: "#ffffff", paso: 1 },
+    { nombre: "Light Blue", color: "#8fd0ff", texto: "#001a4c", paso: 1 },
+    { nombre: "White",      color: "#ffffff", texto: "#001a4c", paso: 1 },
+    { nombre: "Purple",     color: "#9d5cf5", texto: "#001a4c", paso: 1 },
     { nombre: "Ignorance",  color: "#b8c2d6", texto: "#001a4c", paso: 1 }
   ],
   2: [
-    { nombre: "Orange",      color: "#ffa83d", texto: "#001a4c", paso: 2 },
-    { nombre: "Brown",       color: "#b97d52", texto: "#001a4c", paso: 2 },
-    { nombre: "Turquoise",   color: "#35e0d2", texto: "#001a4c", paso: 2 },
-    { nombre: "Light Green", color: "#b5e86b", texto: "#001a4c", paso: 2 },
-    { nombre: "Magenta",     color: "#f06ad2", texto: "#001a4c", paso: 2 },
-    { nombre: "Red",         color: "#ff4d4d", texto: "#001a4c", paso: 2 },
+    { nombre: "Orange",      color: "#ffa83d", texto: "#001a4c", paso: 1 },
+    { nombre: "Brown",       color: "#b97d52", texto: "#001a4c", paso: 1 },
+    { nombre: "Turquoise",   color: "#35e0d2", texto: "#001a4c", paso: 1 },
+    { nombre: "Light Green", color: "#b5e86b", texto: "#001a4c", paso: 1 },
+    { nombre: "Magenta",     color: "#f06ad2", texto: "#001a4c", paso: 1 },
+    { nombre: "Red",         color: "#ff4d4d", texto: "#001a4c", paso: 1 },
     { nombre: "Ignorance",   color: "#b8c2d6", texto: "#001a4c", paso: 1 }
   ],
   3: [
-    { nombre: "Ivory",     color: "#f4edd3", texto: "#001a4c", paso: 2 },
-    { nombre: "Grey",      color: "#858a94", texto: "#001a4c", paso: 2 },
-    { nombre: "Blue",      color: "#3d8bff", texto: "#001a4c", paso: 2 },
-    { nombre: "Green",     color: "#2fbf5b", texto: "#001a4c", paso: 2 },
-    { nombre: "Pink",      color: "#ff8ccb", texto: "#001a4c", paso: 2 },
-    { nombre: "Aqua",      color: "#4de8e0", texto: "#001a4c", paso: 2 },
+    { nombre: "Ivory",     color: "#f4edd3", texto: "#001a4c", paso: 1 },
+    { nombre: "Grey",      color: "#858a94", texto: "#001a4c", paso: 1 },
+    { nombre: "Blue",      color: "#3d8bff", texto: "#001a4c", paso: 1 },
+    { nombre: "Green",     color: "#2fbf5b", texto: "#001a4c", paso: 1 },
+    { nombre: "Pink",      color: "#ff8ccb", texto: "#001a4c", paso: 1 },
+    { nombre: "Aqua",      color: "#4de8e0", texto: "#001a4c", paso: 1 },
     { nombre: "Ignorance", color: "#b8c2d6", texto: "#001a4c", paso: 1 }
   ]
 };
@@ -190,7 +190,7 @@ function render(activo = null, inicial = false) {
   }
 }
 
-// "+2" flotante
+// "+1" flotante
 function efectoClic(p, elemento) {
   const r = elemento.getBoundingClientRect();
   const texto = document.createElement("div");
