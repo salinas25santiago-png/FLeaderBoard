@@ -30,7 +30,7 @@ const GRUPOS = {
   ]
 };
 
-let grupoActual = 2;                     // grupo con el que arranca
+let grupoActual = 1;                     // grupo con el que arranca
 let participantes = GRUPOS[grupoActual];
 
 const MAX_BARRA = 40;    // km que llenan la barra al 100% (solo visual)
